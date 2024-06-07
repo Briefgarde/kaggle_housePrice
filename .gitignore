@@ -9,3 +9,6 @@ mlruns/
 *.csv
 !/data/*.csv
 !/results/*.csv
+
+# We don't need the info on the model in the git repo
+/catboost_info
