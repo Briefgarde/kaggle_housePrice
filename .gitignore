@@ -5,8 +5,7 @@ mlruns/
 *.zip
 *.docx
 
-# Ignore all CSV files except for train.csv and test.csv
-# I'll admit that this is a bit of a hack, but it works for now.
+
 *.csv
-!train.csv
-!test.csv
+!/data/*.csv
+!/results/*.csv
